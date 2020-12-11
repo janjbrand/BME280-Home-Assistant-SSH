@@ -5,7 +5,7 @@ A simple way to add temperature and humidity of a BME280 sensor connected to a R
 Requirements:
 - BME280 sensor
 - Raspberry Pi
-- Home Assistant
+- Home Assistant, running on another device
 - Generic SSH plugin for Home Assistant
 
 Installation
