@@ -12,7 +12,7 @@ Installation
 Add both .py-files to /home/pi
 
 Home Assistant configuration.yaml:
-'''
+```
   - platform: ssh
     host: IP_of_Raspberry_Pi
     unit_of_measurement: "°C"
@@ -34,4 +34,4 @@ Home Assistant configuration.yaml:
     value_template: >-
       {%- set line = value.split("\r\n") -%}
       {{ (line[1]) }}
-'''
+```
