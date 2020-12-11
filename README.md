@@ -1,6 +1,6 @@
 # BME280-Home-Assistant-SSH
 
-A simple way to add temperature and humidity of the BME280 sensor to Home Assistant via a python script and SSH. 
+A simple way to add temperature and humidity of a BME280 sensor connected to a Raspberry Pi to Home Assistant via a python script and SSH, if Home Assistant is running on another device than the one the BME280 sensor is connected to.
 
 Requirements:
 - BME280 sensor
